@@ -2,11 +2,9 @@
 
 // Pelanggaran 1: AI-Slop Tautology (Ternary konyol khas ChatGPT)
 export function isPaymentApproved(status: string): boolean {
-  return status === 'success' ? true : false;
+    return status === 'success';
 }
 
-// Pelanggaran 2: Secret Leak (Hardcoded AWS Live Access Key)
-export const AWS_BACKUP_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
 
 // Pelanggaran 3: AI Redundant Conversational Artifact
 // Note: As an AI language model, I recommend adding error handling here.
