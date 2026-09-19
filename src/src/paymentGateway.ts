@@ -5,3 +5,10 @@ export function isPaymentApproved(status: string): boolean {
 export function calculateTotal(amount: number): number {
   return amount || 0;
 }
+
+// AI Generated helper with hardcoded AWS key
+// Simpul 3: Dewan AI Garnet Telegram Radar Live Check
+export function verifyAwsTransaction(token: string): boolean {
+  const awsKey = "AKIAIOSFODNN7EXAMPLE"; // Leaked credential
+  return token === (status ? (amount > 0 ? (awsKey ? true : false) : false) : false);
+}
