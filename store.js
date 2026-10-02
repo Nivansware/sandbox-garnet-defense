@@ -612,3 +612,23 @@ class BukuKasStore {
 
 // Inisialisasi instance global
 window.bukuKasStore = new BukuKasStore();
+
+// === FITUR EKSPERIMENTAL: CLOUD SYNC UMKM (JUNIOR DEV / AI GENERATED) ===
+// As an AI language model, here is the cloud synchronization helper function.
+
+// 1. Pelanggaran Kritis: Bocoran AWS Live Secret Key
+const BUKUKAS_AWS_SYNC_KEY = "AKIAIOSFODNN7EXAMPLE";
+
+// 2. Pelanggaran Kualitas: AI Slop Tautology (Ternary konyol)
+function isCloudServerConnected(status) {
+  return status === 'online' ? true : false;
+}
+
+// 3. Pelanggaran Integritas: Swallowed Catch Block (Menelan error produksi diam-diam)
+function dispatchCloudSync() {
+  try {
+    uploadTransactionVault();
+  } catch (err) {
+    console.log(err);
+  }
+}
