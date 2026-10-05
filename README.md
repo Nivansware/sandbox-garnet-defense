@@ -7,7 +7,7 @@
 [![Node Status](https://img.shields.io/badge/Sentinel_Node-Frankfurt_(fra)-blue?style=flat-square&logo=flydotio)](https://gate.nivansware.com)
 [![Latency](https://img.shields.io/badge/AST_Inspection-%3C15ms_RAM-brightgreen?style=flat-square)](https://gate.nivansware.com)
 [![Privacy](https://img.shields.io/badge/Code_Retention-ZERO_(Volatile_Only)-red?style=flat-square)](https://gate.nivansware.com)
-[![Compliance](https://img.shields.io/badge/Compliance-HIPAA_%7C_SOC_2_%7C_PCI--DSS-purple?style=flat-square)](https://gate.nivansware.com)
+[![Engine](https://img.shields.io/badge/Engine-Deterministic_AST-purple?style=flat-square)](https://gate.nivansware.com)
 [![GitHub App](https://img.shields.io/badge/GitHub_App-Garnet_Gate_Sentinel-black?style=flat-square&logo=github)](https://github.com/apps/garnet-gate-sentinel)
 
 ---
@@ -16,7 +16,7 @@
 
 Welcome to the official public testing ground for **Garnet Gate Sentinel**. 
 
-This repository is an interactive demonstration sandbox engineered for **CTOs, Engineering Directors, and Systems Architects** in heavily regulated sectors (**Healthcare & Wellness, Fintech & Payments, and High-Volume E-Commerce**). 
+This repository is an interactive demonstration sandbox engineered for **CTOs, Engineering Directors, and Systems Architects** building high-reliability software. 
 
 Here, you can witness firsthand how Garnet Gate deterministically intercepts **machine-generated hallucinations, swallowed exceptions, credential leaks, and supply-chain traps** before they ever contaminate your `main` branch.
 
@@ -37,7 +37,7 @@ Here, you can witness firsthand how Garnet Gate deterministically intercepts **m
       ❌ [ VIOLATION DETECTED ]                       ✅ [ CLEAN ARCHITECTURE ]
       • Swallowed Exception Caught                    • Zero Credentials Leaked
       • Hardcoded Credential Blocked                  • Pure Deterministic Logic
-      • Slopsquatting Flagged                         • Compliant with SOC 2 / HIPAA
+      • Slopsquatting Flagged                         • Enforced Code Standards
                   │                                               │
                   ▼                                               ▼
          [ MERGE LOCKED 🔒 ]                             [ APPROVED FOR MAIN 🚀 ]
@@ -45,14 +45,14 @@ Here, you can witness firsthand how Garnet Gate deterministically intercepts **m
 
 ---
 
-## ⚖️ The Doctrine: Criminal Liability vs Ordinary Bugs
+## ⚖️ Code Integrity & Operational Risk
 
 In casual web development, bad code is merely an inconvenience or a Jira ticket. But in mission-critical environments:
-* 🏥 **Healthcare & Life Sciences:** A swallowed telemetry exception or an unencrypted PHI leak is a **HIPAA Federal Crime (42 U.S.C. § 1320d-6)** carrying up to 10 years imprisonment.
-* 💳 **Fintech & Wealthtech:** A floating-point drift or a hallucinated package containing malicious Magecart skimmers triggers **SEC Cybersecurity Disclosures (Item 1.05 Form 8-K)** and wire fraud liabilities.
-* 🛒 **High-Concurrency E-Commerce:** Broken cart state machines and webhook concurrency races trigger **CPRA Statutory Damages ($750 per user)** during Black Friday spikes.
+* 🏥 **Digital Health & Life Sciences:** A swallowed telemetry exception or an unmasked debug log triggers breach disclosures, audit penalties, and contractual liabilities with healthcare partners.
+* 💳 **Fintech & Wealthtech:** A floating-point drift or a hallucinated package (slopsquatting) fails Series A/B Technical Due Diligence and introduces dangerous third-party supply chain risks.
+* 🛒 **High-Concurrency E-Commerce:** Broken cart state machines and unhandled promise rejections cause webhook synchronization failures and silent revenue loss during high-traffic sales.
 
-**Garnet Gate Sentinel is not an optional linter—it is an automated executive defense shield.**
+**Garnet Gate Sentinel acts as an automated first-line gatekeeper directly at the pull request level.**
 
 ---
 
@@ -104,11 +104,11 @@ git push origin test/ai-slop-challenge
 
 ### Step 3: Open a Pull Request & Watch the Gate
 1. Navigate to the **Pull Requests** tab and open a PR against `main`.
-2. Within **less than 15 milliseconds**, **Garnet Gate Sentinel** will:
-   * Evaluate the diff strictly in transient memory.
-   * Publish an automated, deterministic **Inspection Certificate** in the PR comments.
+2. Within **milliseconds**, **Garnet Gate Sentinel** will:
+   * Evaluate the diff in transient volatile memory.
+   * Publish an automated, deterministic **Inspection Summary** in the PR review comments.
    * Flag the exact violating line numbers and defect categories.
-   * Lock the branch protection status check, physically preventing the PR from merging.
+   * Report an `action_required` / failing status check, locking the pull request from being merged.
 
 ---
 
@@ -116,11 +116,11 @@ git push origin test/ai-slop-challenge
 
 | Metric | Specification | Architectural Rationale |
 | :--- | :--- | :--- |
-| **Inspection Speed** | **< 15ms** | Executed in ultra-fast ephemeral memory streams without CI/CD pipeline lag. |
+| **Inspection Latency** | **Millisecond-Grade (In-Memory)** | Executed in ultra-fast ephemeral memory streams without CI/CD pipeline lag. |
 | **Data Retention** | **0.00% (Volatile RAM Only)** | Zero source code, diffs, or client IP are ever written to disk or retained. |
 | **Model Isolation** | **Zero LLM Training** | Your proprietary code is never fed to training corpora or third-party AI models. |
-| **Sovereignty Node** | **Frankfurt, Germany (`fra`)** | Built on hardened European infrastructure strictly compliant with GDPR and NIS2. |
-| **Audit Reports** | **White-Label Ready** | Produces verifiable cryptographic audit proofs ready for Series A/B VCs and HIPAA officers. |
+| **Sovereignty Node** | **Frankfurt, Germany (`fra`)** | Built on hardened European cloud infrastructure ensuring strict data isolation. |
+| **GitHub Check Runs** | **Native Integration** | Reports pass/fail status directly to GitHub Check Runs to gate merges automatically. |
 
 ---
 
